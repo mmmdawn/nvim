@@ -1,0 +1,57 @@
+// Setting cho các ngôn ngữ:
+// https://github.com/neoclide/coc.nvim/wiki/Language-servers#ccobjective-c
+{
+  "coc.preferences.formatOnSaveFiletypes": ["markdown", "json", "python", "html", "javascript"],
+  
+  //python config
+  "pyright.enable": true,
+  "python.linting.enabled": true, 
+  "python.formatting.provider": "autopep8",
+
+  // html
+  "html.enable": true,
+
+  // js
+  "rome.enable":true,
+
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?",["expanded?","collapse","expand"],"open"],
+    "v": "open:vsplit"
+    },
+
+  //Snippets
+  /* "snippets.userSnippetsDirectory":"~/.config/nvim/snips/markdown.snippets", */
+
+  //LSP Completion Symbols
+  "suggest.completionItemKindLabels": {
+    "method": "  ",
+    "function": "  ",
+    "variable": "[]",
+    "field": "  ",
+    "typeParameter": "<>",
+    "constant": "  ",
+    "class": " פּ ",
+    "interface": " 蘒",
+    "struct": "  ",
+    "event": "  ",
+    "operator": "  ",
+    "module": "  ",
+    "property": "  ",
+    "enum": " 練",
+    "reference": "  ",
+    "keyword": "  ",
+    "file": "  ",
+    "folder": " ﱮ ",
+    "color": "  ",
+    "unit": " 塞 ",
+    "snippet": "  ",
+    "text": "  ",
+    "constructor": "  ",
+    "value": "  ",
+    "enumMember": "  "
+  }  
+}
